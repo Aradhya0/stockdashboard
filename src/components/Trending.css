@@ -1,0 +1,10 @@
+.Trending{  
+    position: absolute;
+    background-color:rgb(7, 9, 7);
+    color: white;
+    top: 0;
+    left: 0;
+    height: 200vh;
+    width: 280px;
+
+}
