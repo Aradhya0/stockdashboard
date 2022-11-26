@@ -19,7 +19,7 @@ function Navbar() {
       <a href="#" className="nav__brand">Stock DashBoard</a> 
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">Home</a>
+          <a href="#" className="nav__link">News</a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">About</a>

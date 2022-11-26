@@ -1,12 +1,13 @@
+// import { Box } from "@mui/material";
 import React from "react";
 import Navbar from "./components/navbar";
-import Sidebar from "./components/Sidebar"
+import Box from "./components/Box"
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Sidebar />
+      <Box />
     </div>
   );
 }

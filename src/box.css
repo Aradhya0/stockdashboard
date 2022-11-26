@@ -1,0 +1,29 @@
+.stocks{
+    width:max-content;
+    margin:auto;
+   
+    padding:20px;
+    margin-top:20px;
+
+    display: flex;
+    justify-content: space-betweenS;
+}
+
+img{
+    width:100px;
+}
+.stocks-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:30px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding:40px;
+}
+
+.text-container{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
