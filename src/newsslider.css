@@ -1,0 +1,44 @@
+.news{
+    width:max-content;
+    margin:auto;
+   
+    padding:20px;
+    margin-top:20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 100px;
+    align-items: center;
+}
+.news-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:30px;
+    width:40rem;
+    border:0.75px solid black;
+    border-radius: 7px;
+    padding:15px;
+}
+
+.newstext-container{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.abcd{
+    width:30rem;
+    height:20rem;
+    font-size:20px;
+}
