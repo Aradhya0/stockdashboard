@@ -9,11 +9,11 @@ import Chart from "./components/Chart";
 function App() {
   return (
     <div>
-      <Navbar />
       <BrowserRouter >
+      <Navbar />
         <Routes>
-          <Route path="/news" element={<Newsslider />} />
           <Route path="/" element={[<Chart />, <Box />]} />
+          <Route path="/news" element={<Newsslider />} />
 
         {/* <Navbar />
         <Box />
