@@ -19,20 +19,20 @@ function Navbar() {
       <a href="#" className="nav__brand">Stock DashBoard</a> 
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">Home</a>
-        </li>
-        <li className="nav__item">
           <a href="#" className="nav__link">News</a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">About Us</a>
+          <a href="#" className="nav__link">About</a>
+        </li>
+        <li className="nav__item">
+          <a href="#" className="nav__link">Profile</a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">Contact Us</a>
         </li>
-        {/* <li className="nav__item">
+        <li className="nav__item">
           <a href="#" className="nav__link">Settings</a>
-        </li> */}
+        </li>
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
