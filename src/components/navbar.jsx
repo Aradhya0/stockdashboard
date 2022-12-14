@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -16,10 +17,12 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">Stock DashBoard</a> 
+      {/* <a href="#" className="nav__brand">Stock DashBoard</a>  */}
+      <Link to="/">Stock Dashboard</Link>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">News</a>
+          {/* <a href="#" className="nav__link">News</a> */}
+          <Link to="/news" className="nav__link">News</Link>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">About</a>
